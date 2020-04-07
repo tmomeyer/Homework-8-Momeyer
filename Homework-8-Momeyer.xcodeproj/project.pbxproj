@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E50E7A5C243CE3C400D2E357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50E7A5B243CE3C400D2E357 /* AppDelegate.swift */; };
+		E50E7A5E243CE3C400D2E357 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50E7A5D243CE3C400D2E357 /* SceneDelegate.swift */; };
+		E50E7A60243CE3C400D2E357 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50E7A5F243CE3C400D2E357 /* ViewController.swift */; };
+		E50E7A63243CE3C400D2E357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50E7A61243CE3C400D2E357 /* Main.storyboard */; };
+		E50E7A65243CE3C800D2E357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50E7A64243CE3C800D2E357 /* Assets.xcassets */; };
+		E50E7A68243CE3C800D2E357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50E7A66243CE3C800D2E357 /* LaunchScreen.storyboard */; };
+		E50E7A73243CE3C800D2E357 /* Homework_8_MomeyerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50E7A72243CE3C800D2E357 /* Homework_8_MomeyerTests.swift */; };
+		E50E7A7E243CE3C800D2E357 /* Homework_8_MomeyerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50E7A7D243CE3C800D2E357 /* Homework_8_MomeyerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E50E7A6F243CE3C800D2E357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E50E7A50243CE3C400D2E357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E50E7A57243CE3C400D2E357;
+			remoteInfo = "Homework-8-Momeyer";
+		};
+		E50E7A7A243CE3C800D2E357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E50E7A50243CE3C400D2E357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E50E7A57243CE3C400D2E357;
+			remoteInfo = "Homework-8-Momeyer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E50E7A58243CE3C400D2E357 /* Homework-8-Momeyer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework-8-Momeyer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50E7A5B243CE3C400D2E357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E50E7A5D243CE3C400D2E357 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E50E7A5F243CE3C400D2E357 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E50E7A62243CE3C400D2E357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E50E7A64243CE3C800D2E357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E50E7A67243CE3C800D2E357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E50E7A69243CE3C800D2E357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50E7A6E243CE3C800D2E357 /* Homework-8-MomeyerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework-8-MomeyerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50E7A72243CE3C800D2E357 /* Homework_8_MomeyerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_8_MomeyerTests.swift; sourceTree = "<group>"; };
+		E50E7A74243CE3C800D2E357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50E7A79243CE3C800D2E357 /* Homework-8-MomeyerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework-8-MomeyerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50E7A7D243CE3C800D2E357 /* Homework_8_MomeyerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_8_MomeyerUITests.swift; sourceTree = "<group>"; };
+		E50E7A7F243CE3C800D2E357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E50E7A55243CE3C400D2E357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50E7A6B243CE3C800D2E357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50E7A76243CE3C800D2E357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E50E7A4F243CE3C400D2E357 = {
+			isa = PBXGroup;
+			children = (
+				E50E7A5A243CE3C400D2E357 /* Homework-8-Momeyer */,
+				E50E7A71243CE3C800D2E357 /* Homework-8-MomeyerTests */,
+				E50E7A7C243CE3C800D2E357 /* Homework-8-MomeyerUITests */,
+				E50E7A59243CE3C400D2E357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E50E7A59243CE3C400D2E357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E50E7A58243CE3C400D2E357 /* Homework-8-Momeyer.app */,
+				E50E7A6E243CE3C800D2E357 /* Homework-8-MomeyerTests.xctest */,
+				E50E7A79243CE3C800D2E357 /* Homework-8-MomeyerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E50E7A5A243CE3C400D2E357 /* Homework-8-Momeyer */ = {
+			isa = PBXGroup;
+			children = (
+				E50E7A5B243CE3C400D2E357 /* AppDelegate.swift */,
+				E50E7A5D243CE3C400D2E357 /* SceneDelegate.swift */,
+				E50E7A5F243CE3C400D2E357 /* ViewController.swift */,
+				E50E7A61243CE3C400D2E357 /* Main.storyboard */,
+				E50E7A64243CE3C800D2E357 /* Assets.xcassets */,
+				E50E7A66243CE3C800D2E357 /* LaunchScreen.storyboard */,
+				E50E7A69243CE3C800D2E357 /* Info.plist */,
+			);
+			path = "Homework-8-Momeyer";
+			sourceTree = "<group>";
+		};
+		E50E7A71243CE3C800D2E357 /* Homework-8-MomeyerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E50E7A72243CE3C800D2E357 /* Homework_8_MomeyerTests.swift */,
+				E50E7A74243CE3C800D2E357 /* Info.plist */,
+			);
+			path = "Homework-8-MomeyerTests";
+			sourceTree = "<group>";
+		};
+		E50E7A7C243CE3C800D2E357 /* Homework-8-MomeyerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E50E7A7D243CE3C800D2E357 /* Homework_8_MomeyerUITests.swift */,
+				E50E7A7F243CE3C800D2E357 /* Info.plist */,
+			);
+			path = "Homework-8-MomeyerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E50E7A57243CE3C400D2E357 /* Homework-8-Momeyer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50E7A82243CE3C800D2E357 /* Build configuration list for PBXNativeTarget "Homework-8-Momeyer" */;
+			buildPhases = (
+				E50E7A54243CE3C400D2E357 /* Sources */,
+				E50E7A55243CE3C400D2E357 /* Frameworks */,
+				E50E7A56243CE3C400D2E357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Homework-8-Momeyer";
+			productName = "Homework-8-Momeyer";
+			productReference = E50E7A58243CE3C400D2E357 /* Homework-8-Momeyer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E50E7A6D243CE3C800D2E357 /* Homework-8-MomeyerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50E7A85243CE3C800D2E357 /* Build configuration list for PBXNativeTarget "Homework-8-MomeyerTests" */;
+			buildPhases = (
+				E50E7A6A243CE3C800D2E357 /* Sources */,
+				E50E7A6B243CE3C800D2E357 /* Frameworks */,
+				E50E7A6C243CE3C800D2E357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E50E7A70243CE3C800D2E357 /* PBXTargetDependency */,
+			);
+			name = "Homework-8-MomeyerTests";
+			productName = "Homework-8-MomeyerTests";
+			productReference = E50E7A6E243CE3C800D2E357 /* Homework-8-MomeyerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E50E7A78243CE3C800D2E357 /* Homework-8-MomeyerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50E7A88243CE3C800D2E357 /* Build configuration list for PBXNativeTarget "Homework-8-MomeyerUITests" */;
+			buildPhases = (
+				E50E7A75243CE3C800D2E357 /* Sources */,
+				E50E7A76243CE3C800D2E357 /* Frameworks */,
+				E50E7A77243CE3C800D2E357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E50E7A7B243CE3C800D2E357 /* PBXTargetDependency */,
+			);
+			name = "Homework-8-MomeyerUITests";
+			productName = "Homework-8-MomeyerUITests";
+			productReference = E50E7A79243CE3C800D2E357 /* Homework-8-MomeyerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E50E7A50243CE3C400D2E357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Trevor Momeyer";
+				TargetAttributes = {
+					E50E7A57243CE3C400D2E357 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E50E7A6D243CE3C800D2E357 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E50E7A57243CE3C400D2E357;
+					};
+					E50E7A78243CE3C800D2E357 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E50E7A57243CE3C400D2E357;
+					};
+				};
+			};
+			buildConfigurationList = E50E7A53243CE3C400D2E357 /* Build configuration list for PBXProject "Homework-8-Momeyer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E50E7A4F243CE3C400D2E357;
+			productRefGroup = E50E7A59243CE3C400D2E357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E50E7A57243CE3C400D2E357 /* Homework-8-Momeyer */,
+				E50E7A6D243CE3C800D2E357 /* Homework-8-MomeyerTests */,
+				E50E7A78243CE3C800D2E357 /* Homework-8-MomeyerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E50E7A56243CE3C400D2E357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50E7A68243CE3C800D2E357 /* LaunchScreen.storyboard in Resources */,
+				E50E7A65243CE3C800D2E357 /* Assets.xcassets in Resources */,
+				E50E7A63243CE3C400D2E357 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50E7A6C243CE3C800D2E357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50E7A77243CE3C800D2E357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E50E7A54243CE3C400D2E357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50E7A60243CE3C400D2E357 /* ViewController.swift in Sources */,
+				E50E7A5C243CE3C400D2E357 /* AppDelegate.swift in Sources */,
+				E50E7A5E243CE3C400D2E357 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50E7A6A243CE3C800D2E357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50E7A73243CE3C800D2E357 /* Homework_8_MomeyerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50E7A75243CE3C800D2E357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50E7A7E243CE3C800D2E357 /* Homework_8_MomeyerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E50E7A70243CE3C800D2E357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E50E7A57243CE3C400D2E357 /* Homework-8-Momeyer */;
+			targetProxy = E50E7A6F243CE3C800D2E357 /* PBXContainerItemProxy */;
+		};
+		E50E7A7B243CE3C800D2E357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E50E7A57243CE3C400D2E357 /* Homework-8-Momeyer */;
+			targetProxy = E50E7A7A243CE3C800D2E357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E50E7A61243CE3C400D2E357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E50E7A62243CE3C400D2E357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E50E7A66243CE3C800D2E357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E50E7A67243CE3C800D2E357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E50E7A80243CE3C800D2E357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E50E7A81243CE3C800D2E357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E50E7A83243CE3C800D2E357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBUPU4UH3X;
+				INFOPLIST_FILE = "Homework-8-Momeyer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.Homework-8-Momeyer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E50E7A84243CE3C800D2E357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBUPU4UH3X;
+				INFOPLIST_FILE = "Homework-8-Momeyer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.Homework-8-Momeyer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E50E7A86243CE3C800D2E357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBUPU4UH3X;
+				INFOPLIST_FILE = "Homework-8-MomeyerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.Homework-8-MomeyerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework-8-Momeyer.app/Homework-8-Momeyer";
+			};
+			name = Debug;
+		};
+		E50E7A87243CE3C800D2E357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBUPU4UH3X;
+				INFOPLIST_FILE = "Homework-8-MomeyerTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.Homework-8-MomeyerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Homework-8-Momeyer.app/Homework-8-Momeyer";
+			};
+			name = Release;
+		};
+		E50E7A89243CE3C800D2E357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBUPU4UH3X;
+				INFOPLIST_FILE = "Homework-8-MomeyerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.Homework-8-MomeyerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homework-8-Momeyer";
+			};
+			name = Debug;
+		};
+		E50E7A8A243CE3C800D2E357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QBUPU4UH3X;
+				INFOPLIST_FILE = "Homework-8-MomeyerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "shu.Homework-8-MomeyerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Homework-8-Momeyer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E50E7A53243CE3C400D2E357 /* Build configuration list for PBXProject "Homework-8-Momeyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50E7A80243CE3C800D2E357 /* Debug */,
+				E50E7A81243CE3C800D2E357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50E7A82243CE3C800D2E357 /* Build configuration list for PBXNativeTarget "Homework-8-Momeyer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50E7A83243CE3C800D2E357 /* Debug */,
+				E50E7A84243CE3C800D2E357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50E7A85243CE3C800D2E357 /* Build configuration list for PBXNativeTarget "Homework-8-MomeyerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50E7A86243CE3C800D2E357 /* Debug */,
+				E50E7A87243CE3C800D2E357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50E7A88243CE3C800D2E357 /* Build configuration list for PBXNativeTarget "Homework-8-MomeyerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50E7A89243CE3C800D2E357 /* Debug */,
+				E50E7A8A243CE3C800D2E357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E50E7A50243CE3C400D2E357 /* Project object */;
+}
