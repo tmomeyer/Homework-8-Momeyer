@@ -9,6 +9,31 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var outputLabel: UILabel!
+    
+    @IBAction func foundTap(_ sender: Any) {
+        
+        outputLabel.text = "You completed a run!"
+        
+    }
+    
+    
+    @IBAction func slideMe(_ sender: Any) {
+        
+        outputLabel.text = "Your are finsihed for the day!"
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
